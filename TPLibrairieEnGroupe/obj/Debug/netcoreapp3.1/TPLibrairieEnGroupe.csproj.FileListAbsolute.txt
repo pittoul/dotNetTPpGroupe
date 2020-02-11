@@ -163,3 +163,8 @@ C:\Users\Bruno\Documents\EPSI_2019\dotNET\TP_Groupe\TPLibrairieEnGroupe\TPLibrai
 C:\Users\Bruno\Documents\EPSI_2019\dotNET\TP_Groupe\TPLibrairieEnGroupe\TPLibrairieEnGroupe\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Bruno\Documents\EPSI_2019\dotNET\TP_Groupe\TPLibrairieEnGroupe\TPLibrairieEnGroupe\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\Bruno\Documents\EPSI_2019\dotNET\TP_Groupe\TPLibrairieEnGroupe\TPLibrairieEnGroupe\obj\Debug\netcoreapp3.1\TPLibrairieEnGroupe.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bruno\Documents\EPSI_2019\dotNET\TP_Groupe\TPLibrairieEnGroupe\TPLibrairieEnGroupe\obj\Debug\netcoreapp3.1\Razor\Views\Articles\Create.cshtml.g.cs
+C:\Users\Bruno\Documents\EPSI_2019\dotNET\TP_Groupe\TPLibrairieEnGroupe\TPLibrairieEnGroupe\obj\Debug\netcoreapp3.1\Razor\Views\Articles\Delete.cshtml.g.cs
+C:\Users\Bruno\Documents\EPSI_2019\dotNET\TP_Groupe\TPLibrairieEnGroupe\TPLibrairieEnGroupe\obj\Debug\netcoreapp3.1\Razor\Views\Articles\Details.cshtml.g.cs
+C:\Users\Bruno\Documents\EPSI_2019\dotNET\TP_Groupe\TPLibrairieEnGroupe\TPLibrairieEnGroupe\obj\Debug\netcoreapp3.1\Razor\Views\Articles\Edit.cshtml.g.cs
+C:\Users\Bruno\Documents\EPSI_2019\dotNET\TP_Groupe\TPLibrairieEnGroupe\TPLibrairieEnGroupe\obj\Debug\netcoreapp3.1\Razor\Views\Articles\Index.cshtml.g.cs
