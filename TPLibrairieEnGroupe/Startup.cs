@@ -8,6 +8,11 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using TPLibrairiev03.Abstraction;
+using TPLibrairiev03.EFClasses;
+using TPLibrairiev03;
+using LibrairieDB;
+using Microsoft.EntityFrameworkCore;
 
 namespace TPLibrairieEnGroupe
 {
@@ -24,6 +29,23 @@ namespace TPLibrairieEnGroupe
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            // Je configure une injection de dépendances :
+            // Lorsque le système veut un IIdentityFormater
+            // Je lui donne un StudentIdentityFormater
+            services.AddScoped<IArticleRepository, ArticleRepoEF>();
+
+            services.AddDbContext<LibrairieDbContext>(options => options.UseSqlite("Filename=librairie_tp_dot_net.db"));
+
+
+
+            /*   protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+           {
+               // définition de la base de données à utiliser ainsi que de la chaine de connexion
+               optionsBuilder.UseSqlite("Filename=librairie_tp_dot_net.db");
+
+               base.OnConfiguring(optionsBuilder);
+           } */
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
